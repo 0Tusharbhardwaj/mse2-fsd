@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Backend base URL
+  baseURL: 'https://mse2-fsd-wi22.onrender.com/', // Backend base URL
 });
 
 // Interceptor to add auth token
